@@ -8,8 +8,7 @@
 1. 使用requirements.txt安装依赖库
 2. 在rb.py填cookie和user-agent，还有NumOfFollowers(你目前粉丝数)
 3. 运行程序
-4. 可以打开FollowerData.csv查看爬到的数据（请不要用Excel打开否则会显示乱码）
-
+4. 可以打开FollowerData.csv查看爬到的数据，请不要用Excel打开否则会显示乱码
 5.（非必须）可以运行sort_follower.py将粉丝数据按降序排序
 
 作者：數心  
