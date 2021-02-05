@@ -14,8 +14,8 @@ def get_headers():
     # 2. 然后按F12 + Network找到自己的cookie和user-agent
     # 3. 把它们分别填在下面的cookie和user-agent里面
     headers = {
-        "cookie" : "_uuid=9E10EEFD-71CF-5F4D-8DE3-FE91123C923A88422infoc; buvid3=E5E4F3EA-72AD-4AAA-9CF2-0126D2160BE7138370infoc; sid=jn0iwgp8; DedeUserID=346660989; DedeUserID__ckMd5=b4abd21c62ac4606; SESSDATA=cef903b6,1615102782,8c79c*91; bili_jct=46ef7b1a287db5f70308e48aaee26afc; blackside_state=1; CURRENT_FNVAL=80; rpdid=|(kJuYlJ||l|0J'ulmmlYJRk|; LIVE_BUVID=AUTO7616001761848285; CURRENT_QUALITY=116; fingerprint3=a5901396dde2c6593f9c20b4b7cf2835; fingerprint=7773c6657dac82d5a2538e54fbb3eada; fingerprint_s=cc494a362078e5e36b6784129da7896a; buivd_fp=E5E4F3EA-72AD-4AAA-9CF2-0126D2160BE7138370infoc; buvid_fp_plain=E5E4F3EA-72AD-4AAA-9CF2-0126D2160BE7138370infoc; dy_spec_agreed=1; bp_t_offset_346660989=484877502504078720; PVID=2; bp_video_offset_346660989=486426452390985747",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36"
+        "cookie" : "",
+        "user-agent": ""
     }
     return headers
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     NotFirstTime = False
 
     # 请在这里填入你目前的粉丝数
-    NumOfFollowers = 16614
+    NumOfFollowers = 0
 
     mid = []
     name = []
