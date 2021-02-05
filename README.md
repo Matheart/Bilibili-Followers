@@ -5,7 +5,7 @@
 灵感来源：[【硬核实战】头铁狗与小破绽](https://www.bilibili.com/video/BV1LZ4y1x7PR)，[【何同学】我拍了一张600万人的合影...](https://www.bilibili.com/video/BV1Nt4y1D7pW)        
 
 使用步骤：
-1. 使用requirements.txt安装依赖库
+1. 安装依赖库
 2. 在rb.py填cookie和user-agent，还有NumOfFollowers(你目前粉丝数)
 3. 运行程序
 4. 可以打开FollowerData.csv查看爬到的数据，请不要用Excel打开否则会显示乱码
